@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(Logo.jpg);
+	background-size:cover;
+	font-family:"Arial Black", Gadget, sans-serif;
+	}
+.wrapper{
+	width: 320px;
+	height: auto;
+	background: rgb(0,0,0,0.5);
+	color: #FFFFFF;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding-top: 70px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	padding-left: 30px;
+	}
+  h2{
+		margin-top: 50vh;
+		font-size:16px;
+		padding:0 0 40px;
+		text-align: center;
+		font-size: 40px;
+		font-weight:bolder;
+		}
+.wrapper p{
+	margin-top:-50px;
+}
+
+.wrapper label{
+		margin:0;
+		padding:0;
+		font-weight:bold;
+		}
+.wrapper input{
+		width:100%;
+		margin-bottom:10px;
+		}
+.wrapper input[type="Username"]{
+		border:thin;
+		background:transparent;
+		border-radius:5px solid #fff;
+		background-color:transparent;
+		outline:none;
+		height:30px;
+		color:aliceblue;
+		font-size:15px;
+		}
+.wrapper input[type="name"]{
+		border:thin;
+		background:transparent;
+		border-radius:5px solid #fff;
+		background-color:transparent;
+		outline:none;
+		height:40px;
+		color:aliceblue;
+		font-size:15px;
+		}
+.wrapper input[type="email"]{
+		border:thin;
+		background:transparent;
+		border-radius:5px solid #fff;
+		background-color:transparent;
+		outline:none;
+		height:30px;
+		color:aliceblue;
+		font-size:15px;
+		}
+		
+.wrapper input[type="tel"]{
+		border:thin;
+		background:transparent;
+		border-radius:5px solid #fff;
+		background-color:transparent;
+		outline:none;
+		height:30px;
+		color:aliceblue;
+		font-size:15px;
+		}
+.wrapper input[type="file"]{
+	font-size:18px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+.wrapper input[type="password"]{
+		border:thin;
+		background:transparent;
+		border-radius:1px solid #fff;
+		background-color:transparent;
+		outline:none;
+		height:30px;
+		color:aliceblue;
+		font-size:15px;
+		}
+.wrapper input[type="submit"]{
+		border: none;
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		}
+input type="submit":hover{
+		cursor:pointer;
+		background:#ffc107;
+		color:#000;
+		}
+.wrapper input[type="button"]{
+	    border: none;
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+}
+input type="button":hover{
+		cursor:pointer;
+		background:#ffc107;
+		color:#000;
+}
+.wrapper input[type="reset"]{
+		border: none;
+		outline: none;
+		height: 40px;
+		background: #fb2525;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		}
+input type="reset":hover{
+		cursor:pointer;
+		background:#ffc107;
+		color:#000;
+		}
+		
+.wrapper b{
+}
+	
+.wrapper a{
+	        margin-top:20px;
+			text-decoration:none;
+			font-size:15px;
+			line-height:20px;
+			color:darkgrey;
+			}
+.wrapper a:hover{
+		color:#ffc107;
+		}
